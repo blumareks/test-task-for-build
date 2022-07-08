@@ -38,7 +38,7 @@ and then you can get the details of each of the articles - for example calling d
 - the microservice needs to page (parse through the pagination of results) automatically through the JSON pages produced by API (there might be 20-40 results in a JSON array per page);
 - the resulted records are stored in the destination - SaaS DB (NoSQL DB - Cloudant), or Object Storage;
 - the refresh allows for checking for the new documents in the results and insert the delta in the destination storage - specified above
-- (optional) extra points for adding the Watson Natural Language analysis of the documents (via provided URL), and adding the resulting tags for Concepts, Keywoards, Entities to the existing document records - check more details here: https://cloud.ibm.com/catalog/services/natural-language-understanding
+- extra points for adding the Watson Natural Language analysis of the documents (via provided URL), and adding the resulting tags for Concepts, Keywoards, Entities to the existing document records - check more details here: https://cloud.ibm.com/catalog/services/natural-language-understanding
 - there should be a simple UI to invoke the microservice to read a record, and initialize pulling of the documents from API
 
 
